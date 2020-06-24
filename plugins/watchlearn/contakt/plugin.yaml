@@ -1,0 +1,6 @@
+plugin:
+    name: 'watchlearn.contakt::lang.plugin.name'
+    description: 'watchlearn.contakt::lang.plugin.description'
+    author: watchlearn
+    icon: oc-icon-adjust
+    homepage: ''

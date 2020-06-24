@@ -1,0 +1,64 @@
+1593020282a:1:{s:23:"html_base/meta_foot.htm";a:5:{s:8:"fileName";s:23:"html_base/meta_foot.htm";s:7:"content";s:1146:"<!--Plugins-->
+<script src="{{ 'assets/js/jquery.js'|theme }}"></script>
+<script src="{{ 'assets/js/plugins.js'|theme }}"></script>
+
+<!--Template functions-->
+<script src="{{ 'assets/js/functions.js'|theme }}"></script>
+
+<!-- Partical Js files  -->
+<script src="{{ 'assets/plugins/particles/particles.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-dots.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-stars.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-bubble.js'|theme }}" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+      $('.contact-form').on('ajaxError', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.error').addClass('active');
+    });
+
+      $('.contact-form').on('ajaxSuccess', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.success').addClass('active');
+    });
+});
+
+</script>
+{% framework %}
+{% framework extras %}
+";s:5:"mtime";i:1592525943;s:6:"markup";s:1144:"<!--Plugins-->
+<script src="{{ 'assets/js/jquery.js'|theme }}"></script>
+<script src="{{ 'assets/js/plugins.js'|theme }}"></script>
+
+<!--Template functions-->
+<script src="{{ 'assets/js/functions.js'|theme }}"></script>
+
+<!-- Partical Js files  -->
+<script src="{{ 'assets/plugins/particles/particles.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-dots.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-stars.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-bubble.js'|theme }}" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+      $('.contact-form').on('ajaxError', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.error').addClass('active');
+    });
+
+      $('.contact-form').on('ajaxSuccess', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.success').addClass('active');
+    });
+});
+
+</script>
+{% framework %}
+{% framework extras %}";s:4:"code";N;}}

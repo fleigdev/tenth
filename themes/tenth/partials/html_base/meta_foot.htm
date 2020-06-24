@@ -1,0 +1,32 @@
+<!--Plugins-->
+<script src="{{ 'assets/js/jquery.js'|theme }}"></script>
+<script src="{{ 'assets/js/plugins.js'|theme }}"></script>
+
+<!--Template functions-->
+<script src="{{ 'assets/js/functions.js'|theme }}"></script>
+
+<!-- Partical Js files  -->
+<script src="{{ 'assets/plugins/particles/particles.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-dots.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-stars.js'|theme }}" type="text/javascript"></script>
+<script src="{{ 'assets/plugins/particles/particles-bubble.js'|theme }}" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+      $('.contact-form').on('ajaxError', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.error').addClass('active');
+    });
+
+      $('.contact-form').on('ajaxSuccess', function(event, message){
+      $('.tostr').removeClass('active');
+
+      $('.tostr.success').addClass('active');
+    });
+});
+
+</script>
+{% framework %}
+{% framework extras %}

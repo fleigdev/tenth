@@ -1,0 +1,46 @@
+/*
+
+1. Add your custom Css styles below
+2. Place the this code in your template:
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+.dark #header .header-inner,
+.dark #header #header-wrap,
+#header.dark .header-inner,
+#header.dark #header-wrap {
+  background-color: black;
+}
+
+
+.transparent-img{
+background-color: transparent;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #2980b9;
+}
+
+.tostr {
+  padding: 20px;
+  color: #fff;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.error {
+    background: red;
+  }
+
+.success{
+    background: green;
+  }

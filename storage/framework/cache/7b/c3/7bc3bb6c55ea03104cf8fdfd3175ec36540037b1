@@ -1,0 +1,32 @@
+1593020280a:1:{s:12:"contacto.htm";a:11:{s:8:"fileName";s:12:"contacto.htm";s:7:"content";s:480:"title = "contacto"
+url = "/contacto"
+layout = "index"
+description = "Page for contact"
+is_hidden = 0
+
+[contactform]
+==
+<section id="page-title" class="text-light" data-bg-parallax="{{ 'assets/img/contactcover.png'|theme }}">
+            
+            <h2 class="text-lg m-b-10 text-light text-center" style="color:white;">Contacto</h1>
+        </section>
+        <!-- end: Page title -->
+        <section>
+
+
+
+          {% component 'contactform' %}
+
+        </section>
+";s:5:"mtime";i:1592955734;s:6:"markup";s:359:"<section id="page-title" class="text-light" data-bg-parallax="{{ 'assets/img/contactcover.png'|theme }}">
+            
+            <h2 class="text-lg m-b-10 text-light text-center" style="color:white;">Contacto</h1>
+        </section>
+        <!-- end: Page title -->
+        <section>
+
+
+
+          {% component 'contactform' %}
+
+        </section>";s:4:"code";N;s:5:"title";s:8:"contacto";s:3:"url";s:9:"/contacto";s:6:"layout";s:5:"index";s:11:"description";s:16:"Page for contact";s:9:"is_hidden";s:1:"0";s:11:"contactform";a:0:{}}}
